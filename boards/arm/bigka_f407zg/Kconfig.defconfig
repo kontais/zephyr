@@ -1,0 +1,13 @@
+# Kconfig - NUCLEO-64 F401RE board configuration
+#
+# Copyright (c) 2016 Linaro Limited.
+#
+# SPDX-License-Identifier: Apache-2.0
+#
+
+if BOARD_BIGKA_F407ZG
+
+config BOARD
+	default bigka_f407zg
+
+endif # BOARD_BIGKA_F407ZG

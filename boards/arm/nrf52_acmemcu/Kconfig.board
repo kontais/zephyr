@@ -1,0 +1,9 @@
+# Kconfig - acmemcu nRF52 board configuration
+#
+# Copyright (c) 2016 Nordic Semiconductor ASA
+#
+# SPDX-License-Identifier: Apache-2.0
+
+config  BOARD_NRF52_ACMEMCU
+	bool "nRF52 ACMEMCU"
+	depends on SOC_NRF52832_QFAA

@@ -1,0 +1,13 @@
+# Kconfig - STM32F1_SHENZHOU board configuration
+#
+# Copyright (c) 2016 RnDity Sp. z o.o.
+#
+# SPDX-License-Identifier: Apache-2.0
+#
+
+if BOARD_STM32F1_SHENZHOU
+
+config BOARD
+	default stm32f1_shenzhou
+
+endif # BOARD_STM32F1_SHENZHOU

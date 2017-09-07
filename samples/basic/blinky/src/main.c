@@ -8,6 +8,7 @@
 #include <board.h>
 #include <device.h>
 #include <gpio.h>
+#include <misc/printk.h>
 
 /* Change this if you have an LED connected to a custom port */
 #define PORT	LED0_GPIO_PORT
@@ -22,6 +23,8 @@ void main(void)
 {
 	int cnt = 0;
 	struct device *dev;
+
+	printk("blinky LED demo start\n");
 
 	dev = device_get_binding(PORT);
 	/* Set LED pin as output */
